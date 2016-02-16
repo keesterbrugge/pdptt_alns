@@ -1,0 +1,62 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title{An adaptive large neighborhood search heuristic for the vehicle routing problem with trailers and transshipments}
+
+\author{Kees ter Brugge}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper thesis solves the vehicle routing problem with trailers and transshipments using an adaptive large neighborhood search heuristic. 
+\end{abstract}
+
+\newpage
+\tableofcontents 
+
+\newpage
+\section{Introduction}
+
+\subsection{About TransMission}
+TransMission is the largest cooperation of independent transport and distribution companies in the Benelux. The transport and distribution companies within the TransMission group work under one name. These organizations are also independent operations, and many of them are family companies. Thirteen of the depots are located in The Netherlands, four in Belgium and one in Luxembourg. Each depot services a region, such that together they cover the Benelux. \\
+During the night line hauls are used to move cargo between depots. During the day depots pickup and deliver the cargo in their service regions. Two methods are used to exchange the cargo at night. On a tactical level there is a centrally planned set of line hauls. Complementary, on a operation level there is a set of line hauls that is planned distributedly by the depots themselves. The flow of information within TransMission doesn't allow centralized planning on a operational level. \\
+TransMission uses many types of trucks and trailers. Moreover, many of their depots can be used as cross-docks.\\  
+TransMission is looking for a tool that can improve their tactical transport plan.
+\subsection{Aim of the Thesis}
+The aim of the thesis is to build an algorithm that converges fast to a solution close to the lower bound on the optimum for instances of the vehicle routing problem with trailers and transshipments as defined in (Drexl, 2014) \cite{drexl2014bandc}. Furthermore, the algorithm should be able to construct solutions for much larger problem instances than the ones reported in \cite{drexl2014bandc}.
+
+How this algorithm will be used to create a tactical transport plan for TransMission is outside the scope of this thesis. 
+\subsection{Methodology}
+
+\subsection{Outline}
+In chapter \ref{chap:The Problem}
+
+
+
+\section{The Problem}
+\label{chap:The Problem}
+\section{Theory}
+\label{chap:Theory}
+\subsection{Vehicle Routing Problems}
+\subsection{Adaptive Large Neighborhood Search}
+\subsection{Simple Temporal Problem}
+\section{Optimization Model}
+\label{chap:Optimization Model}
+\section{Tests and Results}
+\label{chap:Tests and Results}
+\section{Discussion and Future Work}
+\label{chap:Discussion and Future Work}
+
+\newpage
+\bibliography{main}
+\bibliographystyle{unsrt}
+
+\end{document}
