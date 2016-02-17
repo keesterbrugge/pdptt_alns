@@ -20,4 +20,9 @@
 *.synctex
 *.synctex.gz
 
+## ipython notebook backups/checkpoints
+.ipynb_checkpoints
+
+# ignore .gitignore backup
+.gitignore~
 
